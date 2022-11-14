@@ -6,6 +6,7 @@
 
 .navbar {
     background-color: #1f2937;
+    padding: 10px;
 }
 
 .navbar .container {
@@ -129,7 +130,7 @@ header button {
     display: flex;
     justify-content: space-evenly;
     background-color: #3882f6;
-    margin: 10em;
+    margin: 5em 30em;
     padding: 2rem;
     color: #fff;
     border-radius: 8px;
