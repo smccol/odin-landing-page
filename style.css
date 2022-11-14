@@ -1,0 +1,155 @@
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1f2937;
+}
+
+.navbar .container {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #e5e7eb;
+    padding: 8px;
+}
+
+.nav {
+    display: flex;
+}
+
+header {
+    padding: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header .container {
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+header img {
+    max-width: 400px;
+}
+
+header button {
+    background-color: #3882f6;
+    padding: 4px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 36px;
+
+}
+
+.box p {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.box img {
+    max-width: 400px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    padding: 1em;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+    color: #1f2937;
+    padding: 10rem;
+    flex-direction: column;
+}
+
+.quote div {
+    padding: 2em;
+    align-self: end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 10em;
+    padding: 2rem;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    padding: 4px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 16px;
+    border: white 1px solid;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
